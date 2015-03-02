@@ -22,7 +22,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 VERSION = '1.0'
 USER_AGENT = 'kpaste/' + VERSION
-PASTE_URL = "http://paste.kde.org/"
+PASTE_URL = "https://paste.kde.org/"
 
 import os, sys, urllib, urllib2, subprocess, json, getpass
 from optparse import OptionParser, OptionGroup, SUPPRESS_HELP
